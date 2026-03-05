@@ -1022,7 +1022,7 @@ button { cursor: none; border: none; background: none; font-family: var(--font-u
   overflow: visible;
 }
 .res-box-tape { left: 40px; top: -11px; }
-.res-stamp { position: absolute; top: -16px; right: 28px; --sr: 9deg; font-size: 1rem; }
+.res-stamp { position: absolute; top: -16px; right: 28px; --sr: 9deg; font-size: 1rem; pointer-events: none; z-index: 0; }
 .res-title {
   font-family: var(--font-display);
   font-size: 1.5rem; font-style: italic;
@@ -1034,6 +1034,8 @@ button { cursor: none; border: none; background: none; font-family: var(--font-u
   border-bottom: 1px dashed var(--linen-deep);
   padding: 0 28px;
   margin-top: 12px;
+  position: relative;
+  z-index: 2;
 }
 .res-tab {
   flex: 1; padding: 12px 6px;

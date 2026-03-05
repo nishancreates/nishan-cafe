@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Story — Nishan Cafe</title>
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Caveat:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="loader" id="loader">
+  <div class="loader-inner">
+    <svg class="loader-svg" viewBox="0 0 280 80" fill="none">
+      <path class="lpath" d="M10,60 C10,40 25,20 45,18 C65,16 75,35 68,52 C61,69 40,74 28,62 C16,50 28,36 42,42" stroke="#3d2314" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+      <path class="lpath" d="M85,18 L85,70 M85,18 C105,18 118,28 118,42 C118,56 105,63 85,63" stroke="#3d2314" stroke-width="3.5" stroke-linecap="round" fill="none" style="--dl:.18s"/>
+      <path class="lpath" d="M132,18 L132,70 M132,40 C145,26 168,26 168,42 C168,58 132,62 132,75" stroke="#3d2314" stroke-width="3.5" stroke-linecap="round" fill="none" style="--dl:.36s"/>
+      <path class="lpath" d="M185,18 C185,18 200,18 208,35 C216,52 210,68 193,70 C176,72 175,55 185,18Z" stroke="#3d2314" stroke-width="3.5" stroke-linecap="round" fill="none" style="--dl:.54s"/>
+      <path class="lpath" d="M230,20 L255,68 M280,20 L255,68" stroke="#c8945a" stroke-width="3.5" stroke-linecap="round" fill="none" style="--dl:.72s"/>
+    </svg>
+    <p class="loader-hint">Boudha-4 · Est. 2019</p>
+  </div>
+</div>
+
+<div class="cursor-nib" id="cursorNib">
+  <svg viewBox="0 0 24 24" fill="none"><path d="M3 21l4-1L19 8l-3-3L4 17l-1 4z" stroke="#3d2314" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M16 5l3 3" stroke="#c8945a" stroke-width="2" stroke-linecap="round"/></svg>
+</div>
+
+<nav class="nav" id="nav">
+  <a href="index.html" class="nav-logo">
+    <svg class="nav-logo-svg" viewBox="0 0 160 36" fill="none">
+      <path class="nav-draw" d="M4,28 C4,16 12,6 22,5 C32,4 37,14 33,24 C29,34 16,37 10,29 C4,21 10,13 18,17" stroke="#3d2314" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+      <path class="nav-draw" d="M44,5 L44,32 M44,5 C56,5 63,11 63,18 C63,25 56,28 44,28" stroke="#3d2314" stroke-width="2.5" stroke-linecap="round" fill="none" style="--nd:.1s"/>
+      <text x="72" y="26" font-family="Playfair Display" font-style="italic" font-size="22" fill="#3d2314">ishan</text>
+      <text x="4" y="36" font-family="Caveat" font-size="11" fill="#c8945a" letter-spacing="2">C A F E</text>
+    </svg>
+  </a>
+  <div class="nav-links">
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="about.html" class="nav-link active">Story</a>
+    <a href="services.html" class="nav-link">Menu</a>
+    <a href="contact.html" class="nav-link">Visit</a>
+  </div>
+  <button class="cart-btn" id="cartBtn"><span>☕</span><span class="cart-badge" id="cartBadge">0</span></button>
+  <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html">Home</a><a href="about.html">Our Story</a><a href="services.html">Menu</a><a href="contact.html">Visit Us</a>
+</div>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="page-hero-img">
+    <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=1600&q=80" alt="cafe">
+    <div class="page-hero-overlay"></div>
+  </div>
+  <div class="stamp ph-stamp">Our<br>Story</div>
+  <div class="page-hero-content">
+    <h1 class="page-hero-title bounce-reveal">Born from<br><span class="doodle-under">a single dream.</span></h1>
+  </div>
+</section>
+
+<!-- TIMELINE / STORY -->
+<section class="timeline-section">
+  <div class="tl-intro">
+    <p class="hand-tag bounce-reveal">✦ How it all began</p>
+    <h2 class="section-title bounce-reveal">Four years.<br><span class="doodle-under">One corner.</span><br>Thousands of cups.</h2>
+  </div>
+
+  <div class="timeline">
+    <div class="tl-line"></div>
+
+    <div class="tl-item tl-left bounce-reveal">
+      <div class="tl-card">
+        <div class="tl-tape"></div>
+        <span class="tl-year">2017</span>
+        <h3>It Started with a Bag of Beans</h3>
+        <p>Nishan returned from Pokhara with single-origin Nepali coffee beans and a refusal to accept that Boudha didn't have a proper cafe. A tiny kitchen. A hand grinder. A dream.</p>
+      </div>
+      <div class="tl-pol bounce-reveal" style="--pr:-5deg;--pd:.2s">
+        <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=300&q=80" alt="beans">
+        <span>the first bag</span>
+      </div>
+    </div>
+
+    <div class="tl-item tl-right bounce-reveal" style="--bd:.1s">
+      <div class="tl-pol bounce-reveal" style="--pr:4deg;--pd:.3s">
+        <img src="https://images.unsplash.com/photo-1498804103079-a6351b050096?w=300&q=80" alt="space">
+        <span>finding the space</span>
+      </div>
+      <div class="tl-card">
+        <div class="tl-tape tl-tape-r"></div>
+        <span class="tl-year">2018</span>
+        <h3>Finding the Space</h3>
+        <p>A forgotten corner shop on Boudha-4. Wooden floors, cracked walls, and morning light that came in perfectly at 8am. Nishan signed the lease on a Thursday.</p>
+      </div>
+    </div>
+
+    <div class="tl-item tl-left bounce-reveal" style="--bd:.2s">
+      <div class="tl-card">
+        <div class="tl-tape"></div>
+        <span class="tl-year">2019</span>
+        <h3>The Door Opens</h3>
+        <p>January 12th. Six tables, three coffees, and Chef Kamusari's first almond croissants. By noon the cafe was full. By evening they'd run out of everything. A perfect start.</p>
+      </div>
+      <div class="tl-pol bounce-reveal" style="--pr:-3deg;--pd:.4s">
+        <img src="https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?w=300&q=80" alt="opening">
+        <span>opening day ♥</span>
+      </div>
+    </div>
+
+    <div class="tl-item tl-right bounce-reveal" style="--bd:.3s">
+      <div class="tl-pol bounce-reveal" style="--pr:2deg;--pd:.5s">
+        <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=300&q=80" alt="today">
+        <span>today</span>
+      </div>
+      <div class="tl-card">
+        <div class="tl-tape tl-tape-r"></div>
+        <span class="tl-year">Today</span>
+        <h3>A Community Ritual</h3>
+        <p>Students, monks, travelers, locals — everyone calls this their table. Nishan Cafe is now Boudha's living room. The stupa bells, good coffee, better company.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section class="team-section">
+  <div class="stamp team-stamp bounce-reveal">The<br>People</div>
+  <h2 class="section-title bounce-reveal">Behind every cup,<br><span class="doodle-under">a human.</span></h2>
+  <div class="team-grid">
+    <div class="team-card bounce-reveal">
+      <div class="team-pol" style="--pr:-3deg">
+        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&q=80" alt="Nishan">
+        <span>Nishan · Owner</span>
+      </div>
+      <div class="team-text">
+        <h3>Nishan</h3>
+        <span class="team-role">Founder & Owner</span>
+        <p>"I opened this cafe because I wanted a place where I'd want to spend my mornings. Turns out a lot of people felt the same way."</p>
+      </div>
+    </div>
+    <div class="team-card bounce-reveal" style="--bd:.15s">
+      <div class="team-pol" style="--pr:3deg">
+        <img src="https://images.unsplash.com/photo-1566554273541-37a9ca77b91f?w=500&q=80" alt="Kamusari">
+        <span>Kamusari · Chef</span>
+      </div>
+      <div class="team-text">
+        <h3>Kamusari</h3>
+        <span class="team-role">Head Chef</span>
+        <p>"Food should make you feel remembered. Every dish has a little bit of my grandmother's kitchen in it."</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VALUES -->
+<section class="values-section">
+  <h2 class="section-title bounce-reveal">What we <span class="doodle-under">believe in.</span></h2>
+  <div class="values-grid">
+    <div class="value-card bounce-reveal" style="--bd:.05s">
+      <div class="stamp val-stamp">Local</div>
+      <h4>Locally Sourced</h4>
+      <p>Our beans from Nepali farms. Our bread from the baker down the road. We keep it close to home.</p>
+    </div>
+    <div class="value-card bounce-reveal" style="--bd:.15s">
+      <div class="stamp val-stamp">Slow</div>
+      <h4>Slow Coffee</h4>
+      <p>A good pour over takes 4 minutes. So does a good conversation. Both are worth the wait.</p>
+    </div>
+    <div class="value-card bounce-reveal" style="--bd:.25s">
+      <div class="stamp val-stamp">Community</div>
+      <h4>Community First</h4>
+      <p>Students study free on weekday mornings. Local artists display on our walls. This cafe belongs to Boudha.</p>
+    </div>
+    <div class="value-card bounce-reveal" style="--bd:.35s">
+      <div class="stamp val-stamp">Green</div>
+      <h4>Sustainable</h4>
+      <p>Compostable cups. Used grounds go to local gardens. The neighbourhood takes care of us — we take care of it.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand"><span class="footer-logo">Nishan Cafe</span><p>A warm corner in Boudha-4, Kathmandu.<br>Where coffee meets community.</p></div>
+    <div class="footer-col"><h4>Navigate</h4><a href="index.html">Home</a><a href="about.html">Our Story</a><a href="services.html">Menu</a><a href="contact.html">Visit Us</a></div>
+    <div class="footer-col"><h4>Find Us</h4><p>Boudha-4, Kathmandu, Nepal</p><p>📞 9848303515</p><p>☕ Open daily 7am – 9pm</p></div>
+  </div>
+  <div class="footer-bottom"><p>© 2024 Nishan Cafe · Made with ♥ in Boudha</p></div>
+</footer>
+
+<div class="cart-sidebar" id="cartSidebar">
+  <div class="cart-hd"><h3>Your Order ☕</h3><button id="closeCart">✕</button></div>
+  <div class="cart-items" id="cartItems"><p class="cart-empty">Nothing yet — add something! ☕</p></div>
+  <div class="cart-foot" id="cartFoot" style="display:none">
+    <div class="cart-total">Total: <strong id="cartTotal">Rs. 0</strong></div>
+    <button class="btn-wa" id="orderWa">Order via WhatsApp</button>
+    <button class="btn-em" id="orderEm">Order via Email</button>
+  </div>
+</div>
+<div class="cart-overlay" id="cartOverlay"></div>
+<script src="script.js"></script>
+</body>
+</html>

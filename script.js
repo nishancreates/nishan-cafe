@@ -322,7 +322,25 @@ function stampAll(selector) {
     emBtn.addEventListener('click', () => {
       const lines = Object.values(cart).map(i => `${i.name} x${i.qty} = Rs.${i.price * i.qty}`).join('%0A');
       const total = Object.values(cart).reduce((s, i) => s + i.price * i.qty, 0);
-      window.location.href = `mailto:hello@nishancafe.com?subject=Order from Nishan Cafe Website&body=Hello!%0A%0AMy order:%0A${lines}%0A%0ATotal: Rs. ${total}%0A%0AThank you! ☕`;
+      window.location.href = `mailto:nishanrokaya535@gmail.com?subject=Order from Nishan Cafe Website&body=Hello!%0A%0AMy order:%0A${lines}%0A%0ATotal: Rs. ${total}%0A%0AThank you! ☕`;
     });
   }
 })();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

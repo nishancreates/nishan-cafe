@@ -1,6 +1,6 @@
 <div align="center">
 
-# ☕ Nishan Cafe location-Np
+# ☕ Nishan Cafe 
 ### A warm corner in Boudha-4, Kathmandu — built for the web
 
 

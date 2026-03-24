@@ -31,6 +31,7 @@
 - **WhatsApp Ordering** — Customers can order directly via WhatsApp
 - **Cart System** — Add items, view total, checkout via WhatsApp or Email
 - **Fully Responsive** — Works beautifully on mobile, tablet & desktop
+  
 
 ---
 

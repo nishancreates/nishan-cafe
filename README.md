@@ -14,7 +14,6 @@
 
 ---
 
-
 ## 📸 Preview
 
 > A beautiful, fully responsive cafe website — with a menu, reservations, WhatsApp ordering, and a warm story to tell.
